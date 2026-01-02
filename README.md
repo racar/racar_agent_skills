@@ -21,6 +21,9 @@
           ├── references/          # Optional: Reference documentation
           └── assets/              # Optional: Templates, images, etc.
 
+  ## Run claude with
+  claude /add-dir ~/.claude
+
   ## Setup Instructions
 
   ### 1. Create Skills Directory
@@ -261,3 +264,6 @@
   - https://github.com/anthropics/anthropic-skills
   - ~/.claude/anthropic-skills/skills/skill-creator/SKILL.md
   - https://docs.anthropic.com/claude-code
+
+
+
