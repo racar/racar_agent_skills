@@ -76,6 +76,18 @@ Location: ~/.claude/anthropic-skills/skills/doc-coauthoring/SKILL.md
 
 ## Custom Skills (User-defined)
 
+### postgres-backup-restore
+Automate loading PostgreSQL backups from SQL files into local databases running in Docker containers for debugging and testing. Use when working with PostgreSQL database backups, restoring QA/production data to local environments, setting up local debugging environments with real data, or when users mention loading/restoring database backups to Docker containers.
+Location: ~/.claude/skills/postgres-backup-restore/SKILL.md
+
+### postgres-query
+Execute SQL queries and data modifications on PostgreSQL databases running in Docker containers. Auto-detects running PostgreSQL containers and executes SELECT, INSERT, UPDATE, and DELETE operations. Use when working with PostgreSQL databases in containers for querying data, modifying records, analyzing database contents, or performing ad-hoc database operations. Triggers on database queries, SQL operations, data inspection, or PostgreSQL interactions.
+Location: ~/.claude/skills/postgres-query/SKILL.md
+
+### dotnet-webapi
+Build ASP.NET Core Web APIs with .NET 10 (C# 14.0). Supports project scaffolding, CRUD operations, Entity Framework integration, dependency injection, testing with xUnit, Docker containerization, and following 2025 best practices. Use when creating REST APIs, microservices, backend services, implementing CRUD operations, setting up Entity Framework, adding authentication/authorization, or containerizing .NET applications. Triggers on .NET, ASP.NET Core, C#, Web API, REST API, microservices, dotnet, csharp development tasks.
+Location: ~/.claude/skills/dotnet-webapi/SKILL.md
+
 ### ruby-rails
 Ruby on Rails 8 and Ruby 3.2 backend development. Use when working on Rails applications, API development, ActiveRecord models, database migrations, service objects, serializers, RSpec testing, or Ruby code optimization. Triggers on Rails-specific patterns like controllers, models, migrations, jobs, concerns, serializers, and Rails configuration.
 Location: ~/.claude/skills/ruby-rails/SKILL.md
